@@ -4,10 +4,6 @@
   <meta charset="utf-8">
   </head> 
 	<body>
-		<form  method="POST" action="index.php">
-		<input type="text" id="saisie" name="saisie">		
-		<input type="submit" id="valider" name="valider">
-		</form>
 <?php
 
 /* SCRIPT FRONTAL AFFICHAGE DE CAPTCHA
@@ -16,5 +12,9 @@
 echo "<img src='script-captchas.php' alt='captchas' />";
 
 ?>
+		<form  method="POST" action="index.php">
+		<input type="text" id="saisie" name="saisie">		
+		<input type="submit" id="valider" name="valider">
+		</form>
   	</body>
 </html>
