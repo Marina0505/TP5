@@ -5,7 +5,11 @@
 	</head>
 	<body>
 <?php
-
+		
+session_start ();
+$_SESSION['login'] = $_POST['login'];
+$_SESSION['pwd'] = $_POST['pwd'];
+		
 /****************************************************************
 * CAPTCHA GENERATEUR IMAGE EN PHP
 * /!\ PAS DE RETOUR D'ERREUR SUR LA GÉNÉRATION
