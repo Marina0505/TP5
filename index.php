@@ -13,6 +13,7 @@ echo "<img src='script-captchas.php' alt='captchas' />";
 
 ?>
 		<form  method="POST" action="index.php">
+		<label for="saisie">Veuillez saisir le code de sécurité</label>
 		<input type="text" id="saisie" name="saisie">		
 		<input type="submit" id="valider" name="valider">
 		</form>
